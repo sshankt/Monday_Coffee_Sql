@@ -134,7 +134,7 @@ JOIN sales as s
 ON s.customer_id = c.customer_id
 WHERE 
 	s.product_id IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
-GROUP BY 1;
+GROUP BY ci.city_name;
 
 -- -- Q.8
 -- Average Sale vs Rent
